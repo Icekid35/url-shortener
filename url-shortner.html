@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <title>Url shortner</title>
+    <link rel="stylesheet" href="shortener.css">
+    <script defer src="shortener.js"></script>
+  </head>
+  <body>
+    <main>
+      <form class="shortner-box">
+        <input required minlength="3" name="link" placeholder="Shorten a link here..." />
+        <span class="invalid"> please add a valid link </span>
+        <button> Shorten It! </button>
+        <br />
+      </form>
+      <div class="links">
+        <!--links will show up here -->
+      </div>
+    </main>
+  </body>
+</html>
